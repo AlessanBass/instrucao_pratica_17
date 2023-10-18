@@ -1,0 +1,5 @@
+1 Alessandro acsantos.cic@uesc.br 73888498490 2,3,4
+2 Leane leane@uesc.br 738980980 1,3,4
+3 Brenndol brenndol@unex.br 7380989 1,2,4
+4 Erika erika@uesc.br 73980980 1,2,35 Degas Degas@uesc.br 764646478 1,3
+5 Degas degas@uesc.br 12345 1,4
