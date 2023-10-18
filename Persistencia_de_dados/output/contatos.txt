@@ -5,3 +5,5 @@
 5 Degas degas@uesc.br 12345 
 6 Julio julio@uesc.br 787987987 
 7 ZeDaManga zedamanga@uesc.br 747748484847
+8 Leandro leandro@uesc.br 787878
+9 Uesc Uesc@gmail.co 78779

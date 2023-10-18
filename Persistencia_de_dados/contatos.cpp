@@ -386,6 +386,8 @@ class Amizade {
                 c.setId(idContato+1);
                 c.criarContato();
                 cout << "=============================" << endl;
+                contatos.clear(); //esvaziando
+                c.carregarContatos(contatos);
 
                 //OBS: Ao terminar de criar um contato carregar novamente os contatos
                 
@@ -419,6 +421,8 @@ class Amizade {
             case 4:
             cout << ">>>> CRIANDO AMIZADE <<<< " << endl;
             a.criarAmizade();
+            amigos.clear();
+            a.carregarAmizades(amigos);
             break;
 
             case 5:
