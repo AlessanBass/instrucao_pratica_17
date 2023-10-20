@@ -294,14 +294,8 @@ class Amizade {
                 }
                 // A última palavra, após o último espaço em branco
                 vetor.push_back(_linha);
-
-                // Agora o vetor contém as palavras que estavam na linha
-            /*    for (const std::string& palavra : vetor) {
-                    std::cout << palavra << std::endl;
-                } */
         return vetor;
         
-    
     }
 
      void carregarAmizades(vector<Amizade>& a){
@@ -404,9 +398,10 @@ class Amizade {
             int busca;
             cout << "Buscar amigos de: "<< endl;
             cin >> busca;
-            //vector<int> amigosDoContato;
+    
             for(int i = 0; i<contatos.size(); i++){
                 if(contatos[i].getId() == busca){ //achei quem tava procurando
+                  cout << "--- Listando as Amizades de " << contatos[i].getNome() << " ----" << endl;
                     for(int j = 0; j<amigos.size(); j++){ 
                             if(amigos[j].getIdContato() == busca){
                                 cout << "Nome : " <<contatos[amigos[j].getIdAmigo()-1].getNome() << endl;

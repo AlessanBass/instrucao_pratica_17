@@ -1,0 +1,14 @@
+>> Criar uma branch 
+git branch nome_da_sua_brach
+
+>> Alternar entre branch
+git checkout nome_da_branch
+
+>> Subir sua branch para o github
+git push origin nome_da_branch
+
+>> Atualizar a sua branch com conteudos da main
+git pull origin main
+
+>> Mostrar todas as branchs
+git branch -a
